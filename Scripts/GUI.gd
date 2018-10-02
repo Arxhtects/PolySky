@@ -35,8 +35,8 @@ func updatelife():
 
 func _on_PausePlay_button_down():
 	Overlay = get_node("/root/Main/GUI/Overlay")
-	PlayPause = get_node("/root/Main/GUI/Pause/PausePlay")
 	PausedText = get_node("/root/Main/GUI/Pause/PausedText")
+	PlayPause = get_node("/root/Main/GUI/Pause/PausePlay")
 	if get_tree().paused == false:
 		get_tree().paused = true
 		PlayPause.icon = play_icon
@@ -57,9 +57,9 @@ func _on_Restart_button_down():
 
 func _on_MainMenu2_button_down():
 	Overlay = get_node("/root/Main/GUI/Overlay")
+	MainMenu = get_node("/root/Main/GUI/MainMenu")
 	PlayPause = get_node("/root/Main/GUI/Pause/PausePlay")
 	GameVars = get_node("/root/Main/GUI/Game")
-	MainMenu = get_node("/root/Main/GUI/MainMenu")
 	PlayPause.show()
 	GameVars.show()
 	MainMenu.hide()
