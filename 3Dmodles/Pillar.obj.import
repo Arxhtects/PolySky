@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Pillar.obj-c08d0cda90af44e9384ebf937621e24c.mesh"
+
+[deps]
+
+files=[ "res://.import/Pillar.obj-c08d0cda90af44e9384ebf937621e24c.mesh" ]
+
+source_file="res://3Dmodles/Pillar.obj"
+dest_files=[ "res://.import/Pillar.obj-c08d0cda90af44e9384ebf937621e24c.mesh", "res://.import/Pillar.obj-c08d0cda90af44e9384ebf937621e24c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

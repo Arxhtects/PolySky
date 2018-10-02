@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Box.obj-936101cd95b7948b6e0e4eb5a9e54d2d.mesh"
+
+[deps]
+
+files=[ "res://.import/Box.obj-936101cd95b7948b6e0e4eb5a9e54d2d.mesh" ]
+
+source_file="res://3Dmodles/Box.obj"
+dest_files=[ "res://.import/Box.obj-936101cd95b7948b6e0e4eb5a9e54d2d.mesh", "res://.import/Box.obj-936101cd95b7948b6e0e4eb5a9e54d2d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/collect.obj-6bc453fcf8e606dcc964bbf6e8e92890.mesh"
+
+[deps]
+
+files=[ "res://.import/collect.obj-6bc453fcf8e606dcc964bbf6e8e92890.mesh" ]
+
+source_file="res://3Dmodles/collect.obj"
+dest_files=[ "res://.import/collect.obj-6bc453fcf8e606dcc964bbf6e8e92890.mesh", "res://.import/collect.obj-6bc453fcf8e606dcc964bbf6e8e92890.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

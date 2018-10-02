@@ -1,0 +1,30 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=3
+
+[application]
+
+config/name="polysky"
+run/main_scene="res://Scenes/Main.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+global="*res://Scripts/global.gd"
+GUI="*res://Scripts/GUI.gd"
+
+[display]
+
+window/stretch/mode="viewport"
+window/stretch/aspect="keep"
+window/stretch/shrink="1"
+
+[rendering]
+
+environment/default_clear_color=Color( 0.0392157, 0.109804, 0.168627, 1 )
