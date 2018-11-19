@@ -17,16 +17,7 @@ func _ready():
 
 func gamestart():
 	if (gamestart == true):
-		MainMenu = get_node("/root/Main/GUI/MainMenu")
-		Overlay = get_node("/root/Main/GUI/Overlay")
-		MainMenu.show()
-		Overlay.show()
+		Main.mainmenu()
 		get_tree().paused = true
-		print("true")
 	elif(gamestart == false):
-		PlayPause = get_node("/root/Main/GUI/Pause/PausePlay")
-		GameVars = get_node("/root/Main/GUI/Game")
-		PlayPause.show()
-		GameVars.show()
 		get_tree().paused = false
-		print("false")

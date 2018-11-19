@@ -14,6 +14,6 @@ func _on_Pillar_body_entered(body):
 	if body is KinematicBody:
 		if (body.get_name() == "Player"):
 			global.lives -= 1
-			GUI.updatelife()
+			Main.updatelife()
 		else:
 			queue_free()
