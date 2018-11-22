@@ -17,13 +17,20 @@ config/icon="res://icon.png"
 [autoload]
 
 global="*res://Scripts/global.gd"
-GUI="*res://Scripts/GUI.gd"
+Main="*res://Scripts/Main.gd"
 
 [display]
 
+window/size/width=960
+window/size/height=540
 window/stretch/mode="viewport"
 window/stretch/aspect="keep"
 window/stretch/shrink="1"
+
+[input]
+
+ui_clicked=[ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
+ ]
 
 [rendering]
 

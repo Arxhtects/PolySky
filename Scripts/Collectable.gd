@@ -14,7 +14,7 @@ func _on_Collectable_body_entered(body):
 	if body is KinematicBody:
 		if (body.get_name() == "Player"):
 			global.score += 1
-			GUI.updatescore()
+			Main.updatescore()
 			queue_free()
 		else:
 			queue_free()
