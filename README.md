@@ -6,6 +6,16 @@
 
 # [ALPHA BUILD]
 
+### How To Play?
+####[Desktop]
+  - Arrow keys left and right.
+####[Android]
+  - Tilt phone left and right to move. Hold the screen to hold your ships exact position. 
+####[Aim]
+  - Dont hit obsticalls
+  - Collect blue collectables
+  - Yellows give life
+  
 ### Useage
 
   - Download the apk in the repository and install it on your phone to test
