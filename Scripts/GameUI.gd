@@ -10,6 +10,7 @@ onready var PausedText
 onready var Overlay
 
 var clicked = true
+var direction = Vector3()
 
 func _ready():
 	pass

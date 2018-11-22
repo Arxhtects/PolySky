@@ -198,7 +198,6 @@ transform = Transform( -1, 0, -1.50996e-007, 0, 1, 0, 1.50996e-007, 0, -1, -0.96
 
 [node name="Preloadedfloor" type="Spatial" parent="." index="8"]
 
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, -26 )
 
 [node name="Water2" parent="Preloadedfloor" index="0" instance=ExtResource( 6 )]

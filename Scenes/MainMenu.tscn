@@ -30,6 +30,9 @@ scale = Vector2( 1, 1 )
 transform = Transform2D( 1, 0, 0, 1, 0, 0 )
 script = ExtResource( 1 )
 _sections_unfolded = [ "Pause" ]
+__meta__ = {
+"_edit_vertical_guides_": [ 861.667, 480.766 ]
+}
 
 [node name="ColorRect" type="ColorRect" parent="." index="0"]
 
@@ -45,7 +48,7 @@ mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-color = Color( 0, 0, 0, 0.364667 )
+color = Color( 0, 0, 0, 0.509804 )
 
 [node name="MainMenu2" type="Button" parent="." index="1"]
 
@@ -53,10 +56,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 448.0
-margin_top = 266.0
-margin_right = 573.0
-margin_bottom = 307.0
+margin_left = 418.0
+margin_top = 261.0
+margin_right = 543.0
+margin_bottom = 302.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -85,10 +88,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 359.0
-margin_top = 152.0
-margin_right = 667.0
-margin_bottom = 217.0
+margin_left = 326.0
+margin_top = 155.0
+margin_right = 634.0
+margin_bottom = 220.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
