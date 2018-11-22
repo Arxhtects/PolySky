@@ -8,15 +8,15 @@
 
 ### How To Play?
 
-####[Desktop]
+#### [Desktop]
 
   - Arrow keys left and right.
   
-####[Android]
+#### [Android]
 
   - Tilt phone left and right to move. Hold the screen to hold your ships exact position. 
   
-####[Aim]
+#### [Aim]
 
   - Dont hit obsticalls
   - Collect blue collectables
